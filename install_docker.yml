@@ -1,5 +1,6 @@
 ---
 - name: Install docker on remote
   hosts: all
+  become: true
   roles:
     - { role: role.docker }
