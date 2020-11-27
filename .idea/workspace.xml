@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c06466ed-1121-4281-9358-dac240b4e14d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LES_PLAYBOOKS.md" beforeDir="false" afterPath="$PROJECT_DIR$/LES_PLAYBOOKS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_create_module.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_create_module.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/inventory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_children" beforeDir="false" afterPath="$PROJECT_DIR$/inventory_children" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +52,6 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -39,7 +60,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ansible-dynamic-inventory" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -172,41 +193,33 @@
     <MESSAGE value="change inventory children" />
     <MESSAGE value="change inventory children and inventory" />
     <MESSAGE value="minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+    <MESSAGE value="Added more comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more comments" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="3946" y="145" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591334168011">
-      <screen x="3360" y="-161" width="1680" height="1010" />
-    </state>
-    <state x="3946" y="145" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/3360.-161.1680.1010/1920.0.1440.860/-1360.0.1360.728@3360.-161.1680.1010" timestamp="1591334168011" />
-    <state x="4133" y="-15" key="CommitChangelistDialog2" timestamp="1593675301081">
-      <screen x="3360" y="-161" width="1680" height="1010" />
-    </state>
-    <state x="2583" y="57" key="CommitChangelistDialog2/0.0.1920.1040/3360.-161.1680.1010/1920.0.1440.860/-1360.0.1360.728@1920.0.1440.860" timestamp="1593003531042" />
-    <state x="4133" y="-15" key="CommitChangelistDialog2/0.0.1920.1040/3360.-161.1680.1010/1920.0.1440.860/-1360.0.1360.728@3360.-161.1680.1010" timestamp="1593675301081" />
-    <state x="3452" y="-69" width="1496" height="826" key="DiffContextDialog" timestamp="1593001883850">
-      <screen x="3360" y="-161" width="1680" height="1010" />
-    </state>
-    <state x="3452" y="-69" width="1496" height="826" key="DiffContextDialog/0.0.1920.1040/3360.-161.1680.1010/1920.0.1440.860/-1360.0.1360.728@1920.0.1440.860" timestamp="1593001883850" />
-    <state x="3452" y="-69" width="1496" height="826" key="DiffContextDialog/0.0.1920.1040/3360.-161.1680.1010/1920.0.1440.860/-1360.0.1360.728@3360.-161.1680.1010" timestamp="1593000392041" />
-    <state x="2407" y="146" key="FileChooserDialogImpl" timestamp="1593150865270">
-      <screen x="1920" y="0" width="1440" height="860" />
-    </state>
-    <state x="2407" y="146" key="FileChooserDialogImpl/0.0.1920.1040/3360.-161.1680.1010/1920.0.1440.860/-1360.0.1360.728@1920.0.1440.860" timestamp="1593150865270" />
-    <state x="3928" y="10" key="FileChooserDialogImpl/0.0.1920.1040/3360.-161.1680.1010/1920.0.1440.860/-1360.0.1360.728@3360.-161.1680.1010" timestamp="1593065465414" />
-    <state x="4208" y="70" key="SettingsEditor" timestamp="1597071905647">
+    <state x="4272" y="163" key="#Deployment" timestamp="1606384371908">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
-    <state x="4208" y="70" key="SettingsEditor/0.0.1920.1040/-1360.0.1360.728/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1597071905647" />
-    <state x="2235" y="60" key="SettingsEditor/0.0.1920.1040/3360.-161.1680.1010/1920.0.1440.860/-1360.0.1360.728@3360.-161.1680.1010" timestamp="1593006983144" />
-    <state x="4025" y="260" key="SetupCloudRepositoryDialog" timestamp="1592974068376">
-      <screen x="3360" y="-161" width="1680" height="1010" />
+    <state x="4272" y="163" key="#Deployment/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1606384371908" />
+    <state x="4256" y="150" key="#SSH_Configurations" timestamp="1606384297573">
+      <screen x="3840" y="0" width="1680" height="1010" />
     </state>
-    <state x="4025" y="260" key="SetupCloudRepositoryDialog/0.0.1920.1040/3360.-161.1680.1010/1920.0.1440.860/-1360.0.1360.728@3360.-161.1680.1010" timestamp="1592974068376" />
-    <state x="3843" y="89" key="Vcs.Push.Dialog.v2" timestamp="1593675303480">
-      <screen x="3360" y="-161" width="1680" height="1010" />
+    <state x="4256" y="150" key="#SSH_Configurations/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1606384297573" />
+    <state x="4305" y="73" key="CommitChangelistDialog2" timestamp="1606377764954">
+      <screen x="3840" y="0" width="1680" height="1010" />
     </state>
-    <state x="2334" y="213" key="Vcs.Push.Dialog.v2/0.0.1920.1040/3360.-161.1680.1010/1920.0.1440.860/-1360.0.1360.728@1920.0.1440.860" timestamp="1593003533513" />
-    <state x="3843" y="89" key="Vcs.Push.Dialog.v2/0.0.1920.1040/3360.-161.1680.1010/1920.0.1440.860/-1360.0.1360.728@3360.-161.1680.1010" timestamp="1593675303480" />
+    <state x="4305" y="73" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1606377764954" />
+    <state x="3940" y="109" width="1174" height="780" key="DiffContextDialog" timestamp="1606381607439">
+      <screen x="3840" y="0" width="1680" height="1010" />
+    </state>
+    <state x="3940" y="109" width="1174" height="780" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1606381607439" />
+    <state x="4460" y="260" key="FileChooserDialogImpl" timestamp="1606389183820">
+      <screen x="3840" y="0" width="1680" height="1010" />
+    </state>
+    <state x="4460" y="260" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1606389183820" />
+    <state x="4272" y="237" key="Vcs.Push.Dialog.v2" timestamp="1606377767211">
+      <screen x="3840" y="0" width="1680" height="1010" />
+    </state>
+    <state x="4272" y="237" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1606377767211" />
   </component>
 </project>

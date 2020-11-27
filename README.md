@@ -8,7 +8,7 @@ docker run -d --name target2 systemdevformations/centos_ssh:v4
 docker run -d --rm --name target3 --env ROOT_PASSWORD=Passw0rd systemdevformations/alpine-ssh:v1   
 ```
 Retrouver le nom des containers  
-Faire un docker ps | grep systemdevformation  
+Faire un ```docker ps | grep systemdevformation ``` 
 
 ```shell script
 CONTAINER ID        IMAGE                               COMMAND                  CREATED             STATUS                    PORTS                  NAMES

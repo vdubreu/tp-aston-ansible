@@ -106,7 +106,7 @@ Dans votre directory example-role, faire un
    cp -r ../ansible-examples/inventory_children . 
 ```
 Tapez la commande suivante: 
-``` ansible-playbook -i inventory_children playbook.yml```
+```ansible-playbook -i inventory_children playbook.yml```
 
 ## Ansible Vault
 Nous allons voir comment crypter nos informations sensibles avec Ansible
