@@ -1,0 +1,19 @@
+---
+- name: Get latest git version
+  hosts: centos_remote_a
+  vars:
+    git_repo: "https://github.com/gluster/glusterfs.git"
+  tasks:
+    - name: Get git repo
+      git:
+        repo: "{{ git_repo }}"
+        dest: /home/{{ ansible_ssh_user }}/glusterfs
+    - name:
+        command: "/home/{{ ansible_ssh_user }}/glusterfs/git describe --tags $(git rev-list --tags --max-count=7)"
+      register: git_version_list
+    - name:
+        set_fact:
+          latest_version: "{{ git_version_list | git_latest_version }}"
+    - name:
+        debug:
+          var: latest_version
