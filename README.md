@@ -1,5 +1,4 @@
 # Installation du bac a sable ansible-examples
-
 ## Pre-requis pour Centos 7
 ```
 sudo yum -y update   # update all packages 

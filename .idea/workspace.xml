@@ -19,38 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c06466ed-1121-4281-9358-dac240b4e14d" name="Default Changelist" comment="Created install_docker playbook">
-      <change afterPath="$PROJECT_DIR$/GLUSTERFS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_latest_git_version.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/install_gluster_centos.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory_cluster" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ip_hostname.j2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/defaults/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/handlers/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/meta/.galaxy_install_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/molecule/default/converge.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/molecule/default/molecule.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/tasks/clock-rhel-6.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/templates/chrony.conf.j2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/templates/clock.j2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/templates/ntp.conf.j2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/vars/Archlinux.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/vars/Debian.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/vars/FreeBSD.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/vars/RedHat-6.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/vars/RedHat.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.ntp/vars/Suse.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/set_gluster_peer_slave.j2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/set_gluster_volume.j2" afterDir="false" />
+    <list default="true" id="c06466ed-1121-4281-9358-dac240b4e14d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter_plugins/my_filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/filter_plugins/my_filters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/inventory" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory_children" beforeDir="false" afterPath="$PROJECT_DIR$/inventory_children" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,22 +194,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Created install_docker playbook" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4272" y="163" key="#Deployment" timestamp="1607610650818">
+    <state x="4272" y="163" key="#Deployment" timestamp="1607959458891">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
-    <state x="4272" y="163" key="#Deployment/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1607610650818" />
-    <state x="4256" y="150" key="#SSH_Configurations" timestamp="1607587227500">
+    <state x="4272" y="163" key="#Deployment/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1607959458891" />
+    <state x="4256" y="150" key="#SSH_Configurations" timestamp="1607959349905">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
-    <state x="4256" y="150" key="#SSH_Configurations/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1607587227500" />
+    <state x="4256" y="150" key="#SSH_Configurations/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1607959349905" />
     <state x="4424" y="303" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607610844276">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
     <state x="4424" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1607610844276" />
-    <state x="4305" y="73" key="CommitChangelistDialog2" timestamp="1607690720470">
+    <state x="4305" y="73" key="CommitChangelistDialog2" timestamp="1607959016932">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
-    <state x="4305" y="73" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1607690720470" />
+    <state x="4305" y="73" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1607959016932" />
     <state x="3940" y="109" width="1174" height="780" key="DiffContextDialog" timestamp="1606381607439">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
@@ -248,9 +218,9 @@
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
     <state x="4460" y="260" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1607766125436" />
-    <state x="4272" y="237" key="Vcs.Push.Dialog.v2" timestamp="1606475499773">
+    <state x="4272" y="237" key="Vcs.Push.Dialog.v2" timestamp="1607959019365">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
-    <state x="4272" y="237" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1606475499773" />
+    <state x="4272" y="237" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1607959019365" />
   </component>
 </project>
