@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c06466ed-1121-4281-9358-dac240b4e14d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/inventory" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.google.cloudcode.ide_session_index" value="20201215_0001" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -203,10 +203,18 @@
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
     <state x="4256" y="150" key="#SSH_Configurations/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1607959349905" />
+    <state x="4465" y="366" key="#Updates" timestamp="1608008531489">
+      <screen x="3840" y="0" width="1680" height="1010" />
+    </state>
+    <state x="4465" y="366" key="#Updates/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608008531489" />
     <state x="4424" y="303" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607610844276">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
     <state x="4424" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1607610844276" />
+    <state x="4379" y="235" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1608008542335">
+      <screen x="3840" y="0" width="1680" height="1010" />
+    </state>
+    <state x="4379" y="235" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608008542335" />
     <state x="4305" y="73" key="CommitChangelistDialog2" timestamp="1607959016932">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>

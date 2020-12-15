@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import natsort
+
 
 class FilterModule(object):
     def filters(self):
