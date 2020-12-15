@@ -94,8 +94,8 @@ et faire la commande Ansible Ad-Hoc pour verifier si votre fichier inventory est
 Faire ensuite  les Ad-Hoc commandes suivantes:  
 ```shell script 
 ansible centos -m yum -a "name=elinks state=latest" -i inventory
-ansible centos-remote -m yum -a "name=elinks state=latest" -i inventory
-ansible centos-remote -b -m yum -a "name=elinks state=latest" -i inventory
+ansible centosremote -m yum -a "name=elinks state=latest" -i inventory
+ansible centosremote -b -m yum -a "name=elinks state=latest" -i inventory
 ansible all --list-hosts -i inventory
 ansible all -m setup -a "filter=ansible_default_ipv4"  -i inventory
 ansible all -m setup -a "filter=ansible_distribution"  -i inventory 
