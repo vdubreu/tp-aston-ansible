@@ -101,7 +101,7 @@ ansible all -m setup -a "filter=ansible_default_ipv4"  -i inventory
 ansible all -m setup -a "filter=ansible_distribution"  -i inventory 
 ansible all -m setup -a "filter=ansible_distribution_version"  -i inventory 
 ansible all -m command -a "df -h" -i inventory
-ansible centos -b -m yum -a "name=* state=latest" -f 10  -i inventory  # default = 5
+# -- ansible centos -b -m yum -a "name=* state=latest" -f 10  -i inventory  # default = 5
 ansible centos -m file -a "dest=/home/centos/testfile state=touch" -i inventory 
 ```
 ## Presentation des groupes

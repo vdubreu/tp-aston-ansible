@@ -97,7 +97,7 @@ copier le code suivant
 ```
 Dans  example-role/github.role/defaults/main.yml
 ```yaml
-# defaults file for github.role
+# default file for github.role
 git_key: d6f90b4be8axxxxxxxxxxxxxxx
 ```
 Dans votre directory example-role, faire un 
