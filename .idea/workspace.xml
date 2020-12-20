@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c06466ed-1121-4281-9358-dac240b4e14d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/install_on_multios.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker_example.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker_example.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/install_docker.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,10 +221,10 @@
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
     <state x="4379" y="235" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608008542335" />
-    <state x="4305" y="73" key="CommitChangelistDialog2" timestamp="1608469068880">
+    <state x="4305" y="73" key="CommitChangelistDialog2" timestamp="1608472344615">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
-    <state x="4305" y="73" key="CommitChangelistDialog2/0.0.1920.1040/-1360.0.1360.728/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608469068880" />
+    <state x="4305" y="73" key="CommitChangelistDialog2/0.0.1920.1040/-1360.0.1360.728/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608472344615" />
     <state x="4305" y="73" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608306477021" />
     <state x="3940" y="109" width="1174" height="780" key="DiffContextDialog" timestamp="1606381607439">
       <screen x="3840" y="0" width="1680" height="1010" />
@@ -240,10 +239,10 @@
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
     <state x="4181" y="149" key="SettingsEditor/0.0.1920.1040/-1360.0.1360.728/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608459649481" />
-    <state x="4272" y="237" key="Vcs.Push.Dialog.v2" timestamp="1608469070751">
+    <state x="4272" y="237" key="Vcs.Push.Dialog.v2" timestamp="1608472346494">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
-    <state x="4272" y="237" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1360.0.1360.728/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608469070751" />
+    <state x="4272" y="237" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1360.0.1360.728/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608472346494" />
     <state x="4272" y="237" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608306479290" />
   </component>
 </project>
