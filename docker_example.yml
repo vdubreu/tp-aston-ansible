@@ -3,20 +3,25 @@
   become: true
   gather_facts: no
   tasks:
-    - name: data container
+    - name: install python3
+      raw: yum -y update && yum -y install python3
+    - name: install python docker
+      pip:
+        name: docker
+    - name: start a data container
       docker_container:
         name: mydata
         image: busybox
         state: present
         volumes:
         - /data
-    - name: install git
+    - name: start container redis
       docker_container:
         name: redis
         image: redis
         command: redis-server --appendonly yes
         state: started
-        expose:
+        exposed_ports:
         - 6379
         volumes_from:
         - mydata

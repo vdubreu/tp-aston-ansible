@@ -1,6 +1,6 @@
 ---
 - name: Install docker on remote
-  hosts: all
+  hosts: centos_remote_a
   become: true
   roles:
     - { role: role.docker }
