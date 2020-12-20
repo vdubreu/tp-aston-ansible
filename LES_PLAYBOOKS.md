@@ -53,6 +53,23 @@ Retourner dans ansible-examples
 ### Les filters, creer son propre filtre 
 ```ansible-playbook -i inventory_children new_filter.yml --limit target2```
 
+### Exemple de filtre: obtenir la derniere release de glusterfs
+```shell script
+    ansible-playbook -i inventory_children git_version_filter.yml
+```
+
+### Exemple avec docker: creer des containers
+```shell script
+    ansible-playbook -i inventory_children docker_example.yml
+```
+
+### Installation de git sur tous les  OS
+```shell script
+    ansible-playbook -i inventory_children install_on_multios.yml
+```
+
+### 
+
 ## Les modules
 ### Creer son propre module 
 Allez dans votre compte github pour creer un token   
@@ -123,7 +140,11 @@ vous pouvez metter le path de ce fichier dans votre ```.bash_profile``` file.
 et vous entrez la commande sans vous soucier du fichier du mot de passe  
 ```ansible-playbook -i ../inventory_children playbook.yml``` 
 
-
+### Les roles et commment structurer son code
+ Faire un fork de ce repo  
+ ```https://github.com/crunchy-devops/ansible-postgresql.git```
+ dans votre repo github personnel
+ et faire un git clone, dans votre home directory, et dans la vm ansible controller 
 
 
 

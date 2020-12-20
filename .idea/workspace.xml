@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c06466ed-1121-4281-9358-dac240b4e14d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/install_on_multios.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LES_PLAYBOOKS.md" beforeDir="false" afterPath="$PROJECT_DIR$/LES_PLAYBOOKS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../crunchydevops/ansible/awx-15.0.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../crunchydevops/ansible/ansible-gluster" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -196,7 +196,8 @@
     <MESSAGE value="Refactored some playbooks" />
     <MESSAGE value="Set git latest version playbook" />
     <MESSAGE value="Added new filter and docker example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new filter and docker example" />
+    <MESSAGE value="Added multi-os example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added multi-os example" />
   </component>
   <component name="WindowStateProjectService">
     <state x="4272" y="163" key="#Deployment" timestamp="1608437175882">
@@ -221,28 +222,28 @@
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
     <state x="4379" y="235" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608008542335" />
-    <state x="4305" y="73" key="CommitChangelistDialog2" timestamp="1608472344615">
+    <state x="4305" y="73" key="CommitChangelistDialog2" timestamp="1608474434420">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
-    <state x="4305" y="73" key="CommitChangelistDialog2/0.0.1920.1040/-1360.0.1360.728/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608472344615" />
+    <state x="4305" y="73" key="CommitChangelistDialog2/0.0.1920.1040/-1360.0.1360.728/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608474434420" />
     <state x="4305" y="73" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608306477021" />
     <state x="3940" y="109" width="1174" height="780" key="DiffContextDialog" timestamp="1606381607439">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
     <state x="3940" y="109" width="1174" height="780" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1606381607439" />
-    <state x="4460" y="260" key="FileChooserDialogImpl" timestamp="1608459380363">
+    <state x="4460" y="260" key="FileChooserDialogImpl" timestamp="1608474465698">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
-    <state x="4460" y="260" key="FileChooserDialogImpl/0.0.1920.1040/-1360.0.1360.728/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608459380363" />
+    <state x="4460" y="260" key="FileChooserDialogImpl/0.0.1920.1040/-1360.0.1360.728/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608474465698" />
     <state x="4460" y="260" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608307599150" />
     <state x="4181" y="149" key="SettingsEditor" timestamp="1608459649481">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
     <state x="4181" y="149" key="SettingsEditor/0.0.1920.1040/-1360.0.1360.728/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608459649481" />
-    <state x="4272" y="237" key="Vcs.Push.Dialog.v2" timestamp="1608472346494">
+    <state x="4272" y="237" key="Vcs.Push.Dialog.v2" timestamp="1608474436467">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
-    <state x="4272" y="237" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1360.0.1360.728/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608472346494" />
+    <state x="4272" y="237" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1360.0.1360.728/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608474436467" />
     <state x="4272" y="237" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608306479290" />
   </component>
 </project>
