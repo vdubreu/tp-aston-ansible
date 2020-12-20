@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c06466ed-1121-4281-9358-dac240b4e14d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LES_PLAYBOOKS.md" beforeDir="false" afterPath="$PROJECT_DIR$/LES_PLAYBOOKS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/inventory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_children" beforeDir="false" afterPath="$PROJECT_DIR$/inventory_children" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/propagate_ssh_key.yml" beforeDir="false" afterPath="$PROJECT_DIR$/propagate_ssh_key.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20201215_0003" />
+    <property name="com.google.cloudcode.ide_session_index" value="20201220_0000" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -197,13 +198,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="Created install_docker playbook" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4272" y="163" key="#Deployment" timestamp="1608021293769">
+    <state x="4272" y="163" key="#Deployment" timestamp="1608437175882">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
+    <state x="4272" y="163" key="#Deployment/0.0.1920.1040/-1360.0.1360.728/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608437175882" />
     <state x="4272" y="163" key="#Deployment/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608021293769" />
-    <state x="4256" y="150" key="#SSH_Configurations" timestamp="1607959349905">
+    <state x="4256" y="150" key="#SSH_Configurations" timestamp="1608437165874">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
+    <state x="4256" y="150" key="#SSH_Configurations/0.0.1920.1040/-1360.0.1360.728/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608437165874" />
     <state x="4256" y="150" key="#SSH_Configurations/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1607959349905" />
     <state x="4465" y="366" key="#Updates" timestamp="1608008531489">
       <screen x="3840" y="0" width="1680" height="1010" />
@@ -217,21 +220,21 @@
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
     <state x="4379" y="235" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608008542335" />
-    <state x="4305" y="73" key="CommitChangelistDialog2" timestamp="1607959016932">
+    <state x="4305" y="73" key="CommitChangelistDialog2" timestamp="1608306477021">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
-    <state x="4305" y="73" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1607959016932" />
+    <state x="4305" y="73" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608306477021" />
     <state x="3940" y="109" width="1174" height="780" key="DiffContextDialog" timestamp="1606381607439">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
     <state x="3940" y="109" width="1174" height="780" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1606381607439" />
-    <state x="4460" y="260" key="FileChooserDialogImpl" timestamp="1608026766582">
+    <state x="4460" y="260" key="FileChooserDialogImpl" timestamp="1608307599150">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
-    <state x="4460" y="260" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608026766582" />
-    <state x="4272" y="237" key="Vcs.Push.Dialog.v2" timestamp="1607959019365">
+    <state x="4460" y="260" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608307599150" />
+    <state x="4272" y="237" key="Vcs.Push.Dialog.v2" timestamp="1608306479290">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
-    <state x="4272" y="237" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1607959019365" />
+    <state x="4272" y="237" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608306479290" />
   </component>
 </project>
