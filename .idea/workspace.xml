@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c06466ed-1121-4281-9358-dac240b4e14d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/return_code.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/inventory" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory_children" beforeDir="false" afterPath="$PROJECT_DIR$/inventory_children" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/propagate_ssh_key.yml" beforeDir="false" afterPath="$PROJECT_DIR$/propagate_ssh_key.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_example.yml" beforeDir="false" afterPath="$PROJECT_DIR$/error_example.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filter_plugins/my_filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/filter_plugins/my_filters.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +195,8 @@
     <MESSAGE value="minor changes" />
     <MESSAGE value="Added more comments" />
     <MESSAGE value="Created install_docker playbook" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created install_docker playbook" />
+    <MESSAGE value="Refactored some playbooks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored some playbooks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="4272" y="163" key="#Deployment" timestamp="1608437175882">
@@ -220,9 +221,10 @@
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
     <state x="4379" y="235" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608008542335" />
-    <state x="4305" y="73" key="CommitChangelistDialog2" timestamp="1608306477021">
+    <state x="4305" y="73" key="CommitChangelistDialog2" timestamp="1608441993687">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
+    <state x="4305" y="73" key="CommitChangelistDialog2/0.0.1920.1040/-1360.0.1360.728/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608441993687" />
     <state x="4305" y="73" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608306477021" />
     <state x="3940" y="109" width="1174" height="780" key="DiffContextDialog" timestamp="1606381607439">
       <screen x="3840" y="0" width="1680" height="1010" />
@@ -232,9 +234,10 @@
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
     <state x="4460" y="260" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608307599150" />
-    <state x="4272" y="237" key="Vcs.Push.Dialog.v2" timestamp="1608306479290">
+    <state x="4272" y="237" key="Vcs.Push.Dialog.v2" timestamp="1608441995822">
       <screen x="3840" y="0" width="1680" height="1010" />
     </state>
+    <state x="4272" y="237" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1360.0.1360.728/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608441995822" />
     <state x="4272" y="237" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/3840.0.1680.1010@3840.0.1680.1010" timestamp="1608306479290" />
   </component>
 </project>

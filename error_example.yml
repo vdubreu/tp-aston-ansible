@@ -1,5 +1,5 @@
 ---
-- hosts: centos
+- hosts: centos_remote_a
   tasks: 
     - name : copy file to server 
       copy: src=test.sh dest=/home/centos/test.sh mode=0755
