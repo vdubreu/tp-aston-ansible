@@ -1,7 +1,7 @@
 ---
 - hosts: centos_remote_a
   tasks: 
-    - name : copy file to server 
+    - name: copy file to server
       copy: src=test.sh dest=/home/centos/test.sh mode=0755
     - name: Run the script
       command: /home/centos/test.sh 
