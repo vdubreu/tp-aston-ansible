@@ -1,6 +1,10 @@
 ---
 - hosts: all
   become: true
+  gather_facts: on
+  gather_subset:
+    - network
+    - virtual
   tasks:
     - name: install git on centos
       yum: name=git  state=latest
