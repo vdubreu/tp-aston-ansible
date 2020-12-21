@@ -11,5 +11,9 @@
        msg= "STDOUT - {{ comm_out.stdout }}"
     - debug:
        msg="STDERR - {{ comm_out.stderr }}"
-    - debug:
-       msg= "STDOUT - {{ comm_out.rc }}"
+    - name: copy file to the server
+      copy: src=version.txt dest=/home/{{ ansible_ssh_user }} mode=0755
+    - name: Check version is present
+      shell: cat /home/{{ ansible_ssh_user }}/version.txt | grep -q 4.16.2
+      register: current_version
+    - debug: msg= "STDOUT - {{ current_version.rc }}"
