@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c06466ed-1121-4281-9358-dac240b4e14d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_katacoda" beforeDir="false" afterPath="$PROJECT_DIR$/inventory_katacoda" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +107,7 @@
       <workItem from="1608539808222" duration="11859000" />
       <workItem from="1608624856893" duration="654000" />
       <workItem from="1608641742136" duration="1007000" />
-      <workItem from="1608738966822" duration="1098000" />
+      <workItem from="1608738966822" duration="2219000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <created>1591282108822</created>
@@ -171,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608739212306</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added inventory for katacoda">
+      <created>1608741472823</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608741472823</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
