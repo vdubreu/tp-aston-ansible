@@ -38,7 +38,7 @@ Changer le fichier get_inventory.py
 mettre l'adresse IP de votre remote VM dans la structure JSON 
 ```shell script
 'group': {
-          'hosts': ['51.68.28.179' ],
+          'hosts': ['172.18.0.3' ],
 ```
 Save, git commit and git push
 et  tapez dans votre VM
