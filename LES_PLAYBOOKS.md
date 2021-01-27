@@ -16,7 +16,7 @@
 ```ansible-playbook -i inventory_children loops.yml --limit centos```
 
 ## Passage d'information entre les hosts
-### Runtime Inventory 
+### In-memory Inventory 
 Pour passer des variables entre remote-to-remote host il est possible
 de creer un host de type dummy et lui attacher des variables pour les passer 
 vers l'autre host.
@@ -57,7 +57,7 @@ Retourner dans ansible-examples
 ```shell script
     ansible-playbook -i inventory_children git_version_filter.yml
 ```
-
+ansible-playbook -i inventory_children install_docker.yml
 ### Exemple avec docker: creer des containers
 ```shell script
     ansible-playbook -i inventory_children docker_example.yml

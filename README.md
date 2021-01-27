@@ -56,7 +56,7 @@ en fonction de l'adresses IP fournie pendant le cours
 modifier egalement la VM ansible-remote  
 
 Dans votre home directory,  faire  
-```ssh-keygen -t rsa -b 4096 -C "votre adresse mail"```  
+```ssh-keygen -t rsa -b 4096 ```  
 Valider les parametres par defaut  
 sans passphrase  
 Et  
@@ -77,7 +77,7 @@ Votre prompt change
 ```(venv) [centos@ansible-oxiane-controller-2 ~]$```  
 Faire   
 ```pip3 install wheel```    
-installe le package wheel qui gere les permission pour installer les packages Pip     
+installe le package wheel qui gere les permissions pour installer les packages Pip     
 et
 ```pip3 install ansible```
 

@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c06466ed-1121-4281-9358-dac240b4e14d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/run-hello-world.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LES_PLAYBOOKS.md" beforeDir="false" afterPath="$PROJECT_DIR$/LES_PLAYBOOKS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker_example.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker_example.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_children" beforeDir="false" afterPath="$PROJECT_DIR$/inventory_children" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +56,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20201222_0001" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210127_0000" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../crunchydevops/ci-cd/jenkins-pic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -108,6 +113,7 @@
       <workItem from="1608641742136" duration="1007000" />
       <workItem from="1608738966822" duration="2260000" />
       <workItem from="1608803402222" duration="909000" />
+      <workItem from="1608896205591" duration="8342000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <created>1591282108822</created>
@@ -186,7 +192,28 @@
       <option name="project" value="LOCAL" />
       <updated>1608798744140</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="changed in-memory inventory">
+      <created>1608896311091</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608896311091</updated>
+    </task>
+    <task id="LOCAL-00013" summary="changed in-memory inventory">
+      <created>1608986929588</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608986929588</updated>
+    </task>
+    <task id="LOCAL-00014" summary="changed comments">
+      <created>1608988962264</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608988962264</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -229,6 +256,8 @@
     <MESSAGE value="Added gather_subset example" />
     <MESSAGE value="Added test on variable rc" />
     <MESSAGE value="Added inventory for katacoda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added inventory for katacoda" />
+    <MESSAGE value="changed in-memory inventory" />
+    <MESSAGE value="changed comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed comments" />
   </component>
 </project>

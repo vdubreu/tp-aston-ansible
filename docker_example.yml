@@ -22,6 +22,6 @@
         command: redis-server --appendonly yes
         state: started
         exposed_ports:
-        - 6379
+        - '6379'
         volumes_from:
         - mydata
