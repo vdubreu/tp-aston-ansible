@@ -38,7 +38,7 @@ docker run -d --name target1 systemdevformations/ubuntu_ssh:v2
 docker run -d --name target2 systemdevformations/centos_ssh:v5 
 docker run -d --name target3 --env ROOT_PASSWORD=Passw0rd systemdevformations/alpine-ssh:v1   
 ```
-Retrouver le nom des containers  
+Check si les containers sont presents  
 Faire un ```docker ps | grep systemdevformation ``` 
 
 ```shell script
@@ -57,7 +57,7 @@ modifier egalement la VM ansible-remote
 
 Dans votre home directory,  faire  
 ```ssh-keygen -t rsa -b 4096 ```  
-Valider les parametres par defaut  
+Valider les parametres par defaut en tapant enter a chaque etape 
 sans passphrase  
 Et  
 ```ssh-copy-id centos@<remote_id_address>```  
@@ -75,14 +75,22 @@ Faire
 ```source venv/bin/activate```   
 Votre prompt change   
 ```(venv) [centos@ansible-oxiane-controller-2 ~]$```  
-Faire   
-```pip3 install wheel```    
-installe le package wheel qui gere les permissions pour installer les packages Pip     
+Faire
+```shell
+pip3 install natsort # library pour l'utilisation des filtres
+pip3 install wheel  # pour mettre en place des permissions
+pip install --upgrade pip  # pour mettre a jour pip et supporter les libs de crypto
+```
+installe la derniere version d'Ansible     
 et
-```pip3 install ansible```
+```shell
+pip3 install ansible
+ansible --version # should be the version 2.10.6
+```
 
 Vous devez egalement installer le package sshpass     
-pour utiliser ssh avec un password, c'est-a-dire sans une cle ssh propagee.    
+pour utiliser ssh avec un password, c'est-a-dire sans une cle ssh propagee. 
+avec Ubuntu
 ```sudo apt-get -y install sshpass```  
 avec centos  
 ```sudo yum -y install sshpass```
@@ -91,7 +99,7 @@ changer le ficher inventory avec les nouvelles adresses IP
 
 et faire la commande Ansible Ad-Hoc pour verifier si votre fichier inventory est correct.    
 ```ansible all -m ping -i inventory```
-Faire ensuite  les Ad-Hoc commandes suivantes:  
+Faire ensuite  les Ad-Hoc commandes suivantes une par une lentement:  
 ```shell script 
 ansible centos -m yum -a "name=elinks state=latest" -i inventory
 ansible centosremote -m yum -a "name=elinks state=latest" -i inventory
@@ -101,11 +109,13 @@ ansible all -m setup -a "filter=ansible_default_ipv4"  -i inventory
 ansible all -m setup -a "filter=ansible_distribution"  -i inventory 
 ansible all -m setup -a "filter=ansible_distribution_version"  -i inventory 
 ansible all -m command -a "df -h" -i inventory
+NE PAS FAIRE LA COMMANDE SUIVANTE ELLE PREND 10 MINUTES
 # -- ansible centos -b -m yum -a "name=* state=latest" -f 10  -i inventory  # default = 5
 ansible centos -m file -a "dest=/home/centos/testfile state=touch" -i inventory 
 ```
-## Presentation des groupes
-Mettre a jour le ficher inventory_children sans en modifier la structure  
+## Presentation des groupes de hosts
+Mettre a jour les adresse IP dans le ficher inventory_children sans en modifier 
+la structure.  
 
 ## Premier script YAML
 Dans la directory ansible-examples editez le fichier ansible_ping.yml, et etudiez le code. 

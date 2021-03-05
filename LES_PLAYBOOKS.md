@@ -30,17 +30,21 @@ vers l'autre host.
 ```
 
 ### Inventaire dynamique
-Faire un fork de ce repo  
-```https://github.com/crunchy-devops/ansible-dynamic-inventory.git```
+Faire un fork de ce repo
+```shell
+cd 
+git clone https://github.com/<votre_repo>/ansible-dynamic-inventory.git
+cd ansible-dynamic-inventory
+````
 dans votre repo github personnel
 et faire un git clone, dans votre home directory, et dans la vm ansible controller   
-Changer le fichier get_inventory.py   
+Changer le fichier get_inventory.py avec pycharm  
 mettre l'adresse IP de votre remote VM dans la structure JSON 
 ```shell script
 'group': {
           'hosts': ['172.18.0.3' ],
 ```
-Save, git commit and git push
+Deployer votre fichier modifie dans la vm
 et  tapez dans votre VM
 ```ansible-playbook -i get_inventory.py playbook.yml```
 
@@ -53,17 +57,24 @@ Retourner dans ansible-examples
 ### Les filters, creer son propre filtre 
 ```ansible-playbook -i inventory_children new_filter.yml --limit target2```
 
-### Exemple de filtre: obtenir la derniere release de glusterfs
+### Exemple de filtre: obtenir la derniere version de glusterfs
 ```shell script
     ansible-playbook -i inventory_children git_version_filter.yml
 ```
-ansible-playbook -i inventory_children install_docker.yml
-### Exemple avec docker: creer des containers
-```shell script
-    ansible-playbook -i inventory_children docker_example.yml
-```
+Allez sous Katacoda pour une courte formation Python. 
+Cette formation va vous permettre d'ecrire un filtre pour formater un disque
 
-### Installation de git sur tous les  OS
+```https://www.katacoda.com/hmeftah/scenarios/python-beginner```
+et ensuite allez sur le site pour ecrire votre filtre ansible 
+
+```https://www.katacoda.com/hmeftah/scenarios/tp-ansible-afip```
+
+
+
+
+
+
+### Installation de git sur tous les hosts
 ```shell script
     ansible-playbook -i inventory_children install_on_multios.yml
 ```
