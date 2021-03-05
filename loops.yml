@@ -1,13 +1,13 @@
 ---
-- hosts: all
+- hosts: centos_remote_a
   tasks:
-  - name:  multiple items .- "{{ item }}"
+  - name:  loop example
     file: 
       state:  touch 
-      path:  /home/{{ansible_ssh_user}}/{{ item }}
-    loop:
-      - file_no_1
-      - file_no_2
-      - file_no_3
+      path:  "/home/{{ansible_ssh_user}}/{{ item }}"
+    with_list:
+      - ab
+      - cd
+      - ef
 
 

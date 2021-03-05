@@ -47,7 +47,7 @@ et  tapez dans votre VM
 
 ## Utilisation des variables et des filtres 
 Retourner dans ansible-examples
-### Changer the Message Of The Day (MOTD) 
+### Change the Message Of The Day (MOTD) 
 ```ansible-playbook -i inventory_children motd.yml```
 
 ### Les filters, creer son propre filtre 
@@ -127,7 +127,7 @@ Tapez la commande suivante:
 
 ## Ansible Vault
 Nous allons voir comment crypter nos informations sensibles avec Ansible
-Crypter la variable token dans votre projet example defaults/main.yml  
+Crypter la variable token dans votre projet example github.role/defaults/main.yml  
 Tapez  
 ```ansible-vault encrypt  main.yml```   
 entrez votre mot de passe   
@@ -138,7 +138,7 @@ Vous pouvez executer le playbook avec dans example-role directory
 vous pouvez metter le path de ce fichier dans votre ```.bash_profile``` file.  
 ```export  ANSIBLE_VAULT_PASSWORD_FILE=/home/<home>/mysecret```      
 et vous entrez la commande sans vous soucier du fichier du mot de passe  
-```ansible-playbook -i ../inventory_children playbook.yml``` 
+```ansible-playbook -i inventory_children playbook.yml``` 
 
 ### Les roles et commment structurer son code
  Faire un fork de ce repo  

@@ -10,9 +10,6 @@
     - name: lookup works only on local file.
       debug:
         msg: "{{ user_data | upper }}"
-    - name: Uppercase message
-      debug:
-        msg: "{{ result.stdout | upper }}"
     - name: Lower Message
       debug:
         msg: "{{ result.stdout | lower }}"
