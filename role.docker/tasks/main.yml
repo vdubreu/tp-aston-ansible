@@ -32,5 +32,5 @@
   yum: name=python-pip state=present update_cache=yes
 - name: change user's group
   user:
-    name: "{{ansible_ssh_user}}"
+    name: centos
     groups: docker, wheel
