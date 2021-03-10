@@ -28,7 +28,7 @@ class FilterModule(object):
         disk = []
         device = []
         flag = 0
-        type_format = ['sawap','ext4','xfs','dos']
+        type_format = ['swap','ext4','xfs','dos']
         line = list_device.split('\n')
         for i in line:
            if 'Disk /' in i:
