@@ -36,9 +36,9 @@ class FilterModule(object):
         for v in disk:
            inter = v.split()
            cmd = "lsblk -f {}".format(inter[1][:-1])
-           return cmd
+           #return cmd
            check_blk = str(subprocess.check_output(cmd,shell=True))
-           return check_blk
+           #return check_blk
          #return check_blk
         for t in type_format:
            if t in check_blk:
